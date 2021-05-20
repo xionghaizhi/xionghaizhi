@@ -2,8 +2,6 @@ name: GitHub metrics
 on:
   schedule:
     - cron: "0 * * * *"
-  push:
-    branches: "master"
   workflow_dispatch:
 jobs:
   github-metrics-personal:
